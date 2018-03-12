@@ -22,10 +22,10 @@ Follow these instructions carefully and in order.
 
 ##### Investigate how `let` and `const` are now used in the code. Where did you need to convert `const` into `let` to make the code work? Can you identify any patterns/similarities?
 
-(Put your answer here)
+allProducts, totalClicks, and when defining i inside of the for loops. In the for loops, it is trying to redefine the variable and that is not allowed. For totalClicks, is not an object, therefore, the value cannot be reassigned. For allProducts, line 27 tries to change the value from an object.
 
 ---
 
 ##### How did it go with making the adaptation from concatenations to template literal notation? Do you think you'll mostly use template literal notation from now on?
 
-(Put your answer here)
+Template literal notation makes the code look cleaner. It also helps prevent errors with forgetting to add '+' and extra quotes and spaces. This makes it easier. 
